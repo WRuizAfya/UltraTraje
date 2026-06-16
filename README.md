@@ -31,4 +31,49 @@ Usuários podem rolar a tela, interagir com os "looks" publicados, acompanhar se
 
 ## 🏗️ Arquitetura e Engenharia de Software
 
-O projeto foi
+O projeto foi modelado seguindo padrões rigorosos de engenharia de software para garantir escalabilidade e clareza no desenvolvimento.
+
+### 👥 Stakeholders Principais
+* **Clientes:** Usuários finais em busca de peças exclusivas e consumo sustentável.
+* **Vendedores/Bazares:** Empreendedores e desapegos parceiros que gerenciam seus próprios estoques.
+* **Administradores:** Equipe responsável pela curadoria, moderação do feed e suporte financeiro/logístico.
+
+### 📐 Casos de Uso Principais (UML)
+* **[RF-01]** Autenticação e Gestão de Perfil (Cliente/Vendedor).
+* **[RF-02]** Publicação de Peças no Feed Visual.
+* **[RF-03]** Fluxo de Compra e Reserva de Itens.
+* **[RF-04]** Gerenciamento de Pedidos e Status de Envio.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O ecossistema do Ultra Traje foi planejado utilizando tecnologias modernas para o desenvolvimento web:
+
+* **Frontend:** HTML5, CSS3, JavaScript (Pode adicionar o framework aqui, ex: *React / Vue*)
+* **Backend:** (Pode adicionar a linguagem/framework aqui, ex: *Python/Django, PHP, Java/Spring*)
+* **Banco de Dados:** (Ex: *PostgreSQL / MySQL*) para consistência e relacionamentos complexos de estoque e usuários.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+* [Git](https://git-scm.com)
+* (Adicione aqui outras ferramentas necessárias, como Node.js, Docker, PHP, etc.)
+
+### ⚙️ Clonando e rodando
+
+```bash
+# Clone este repositório
+$ git clone [https://github.com/seu-usuario/ultra-traje-a-vigor.git](https://github.com/seu-usuario/ultra-traje-a-vigor.git)
+
+# Acesse a pasta do projeto no terminal
+$ cd ultra-traje-a-vigor
+
+# Instale as dependências (Exemplo genérico, altere conforme sua stack)
+$ npm install # ou pip install -r requirements.txt
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev # ou o comando correspondente da sua stack
